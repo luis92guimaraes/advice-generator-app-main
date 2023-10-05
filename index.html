@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
   <link rel="stylesheet" href="./src/css/reset.css">
   <link rel="stylesheet" href="./src/css/variables.css">
   <link rel="stylesheet" href="./src/css/style.css">
   <title>Frontend Mentor | Advice generator app</title>
 </head>
+
 <body>
-      <main>
-        <div class="cartao">
-          
-        </div>
-      </main>
-    <script src="./src/js/script.js"></script>
+  <main>
+    <div class="card">
+      <p class="title">ADVICE #117</p>
+
+      <p class="quote">"It is easy to sit up and take notice, what's difficult is getting up and talking action."</p>
+
+      <picture class="divisor">
+        <source srcset="./src/images/pattern-divider-mobile.svg" (max-width:600px) />
+        <img src="./src/images/pattern-divider-desktop.svg" alt="divider">
+      </picture>
+
+      <button class="dice">
+          <img src="/src/images/icon-dice.svg" alt="dice">
+      </button>
+    </div>
+  </main>
+  <script src="./src/js/script.js"></script>
 </body>
+
 </html>
