@@ -59,7 +59,8 @@ main {
     justify-content: center;
     align-items: center;
     position: absolute;
-    bottom: -12%;
+    bottom: 0;
+    transform: translateY(50%);
 }
 
 .card .dice:hover {
